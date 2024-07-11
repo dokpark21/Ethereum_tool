@@ -3,7 +3,7 @@ import rlp
 from eth_utils import keccak
 
 # 배포자 주소와 nonce 설정
-deployer_address = "0xB49bf876BE26435b6fae1Ef42C3c82c5867Fa149"
+deployer_address = "MY_INFURA_PROJECT_ID"
 nonce = 1337  # 해당 트랜잭션의 nonce 값
 
 # RLP 인코딩

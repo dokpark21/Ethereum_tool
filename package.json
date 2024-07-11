@@ -1,0 +1,15 @@
+{
+  "name": "ethereum_tool",
+  "version": "1.0.0",
+  "description": "Ethereum tool code Box",
+  "main": "ethereum_getPubkey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ethereum_getPubkey.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}

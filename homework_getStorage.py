@@ -1,7 +1,7 @@
 from web3 import Web3
 
 # Infura를 통해 이더리움 메인넷에 연결
-infura_url = "https://mainnet.infura.io/v3/64399f7381854c4ebb02ae69db93c72c"
+infura_url = "https://mainnet.infura.io/v3/MY_INFURA_PROJECT_ID"
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # 컨트랙트 주소 설정
