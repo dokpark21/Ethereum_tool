@@ -2,14 +2,18 @@
   "name": "ethereum_tool",
   "version": "1.0.0",
   "description": "Ethereum tool code Box",
-  "main": "ethereum_getPubkey.js",
+  "main": "bitcoin_BIP-39.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ethereum_getPubkey.js"
+    "run": "node bitcoin_BIP-39.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^5.7.2"
+    "bip39": "^3.1.0",
+    "crypto": "^1.0.1",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.7.2",
+    "hdkey": "^2.1.0"
   }
 }
